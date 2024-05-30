@@ -13,7 +13,7 @@ Os alunos irão colaborar para criar um site simples. Cada aluno será responsá
 2. **Clonagem do Repositório:**
    - Cada aluno deve clonar o repositório na sua máquina local:
      ```bash
-     git clone https://github.com/seu-usuario/site-colaborativo.git
+     git clone [https://github.com/seu-usuario/site-colaborativo.git](https://github.com/pabloermida/atitus.git)
      ```
 
 3. **Distribuição de Tarefas:**
