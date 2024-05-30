@@ -8,12 +8,13 @@ Os alunos irão colaborar para criar um site simples. Cada aluno será responsá
 
 #### Passo a Passo
 1. **Instalar Git local e criar uma conta no GitHub:**
-   - Realizar o download 
+   - Realizar o download do Git e instalar na sua máquina local
+   - Criar o seu usuário no Github e enviar ao professor para adicionar ao repositório
 
 2. **Clonagem do Repositório:**
    - Cada aluno deve clonar o repositório na sua máquina local:
      ```bash
-     (git clone https://github.com/pabloermida/atitus.git)
+     git clone https://github.com/pabloermida/atitus.git
      ```
 
 3. **Distribuição de Tarefas:**
