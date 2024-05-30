@@ -16,55 +16,58 @@ Os alunos irão colaborar para criar um site simples. Cada aluno será responsá
      ```bash
      git clone https://github.com/pabloermida/atitus.git
      ```
-
-3. **Distribuição de Tarefas:**
-   - Divida as tarefas entre os alunos, por exemplo:
-     - Aluno 1: Adicionar seção "Sobre"
-     - Aluno 2: Adicionar seção "Serviços"
-     - Aluno 3: Adicionar seção "Contato"
-     - Aluno 4: Estilizar o header
-     - Aluno 5: Estilizar o main
-     - Aluno 6: Estilizar o footer
-     - Aluno 7: Adicionar funcionalidade de formulário em "Contato"
-     - Aluno 8: Adicionar script para navegação
-     - Aluno 9: Adicionar script para animações
-     - Aluno 10: Melhorar a responsividade do site
-
-4. **Criação de Branches:**
+     
+3. **Criação de Branches:**
    - Cada aluno deve criar uma nova branch a partir da `main` para trabalhar na sua tarefa:
      ```bash
-     git checkout -b aluno-nome-tarefa
+     git checkout -b aluno-nome-secao
      ```
 
-5. **Edição e Commit:**
-   - Cada aluno deve fazer as mudanças necessárias na sua branch e fazer commits:
+4. **Edição e Commit:**
+   - Cada aluno deve adicionar uma nova seção ao `index.html` e estilizar a seção no `style.css`. Por exemplo:
+     ```html
+     <!-- Adicionar ao index.html -->
+     <section id="nome-secao">
+         <h2>Seção Nome</h2>
+         <p>Conteúdo da seção adicionada pelo aluno.</p>
+     </section>
+     ```
+     ```css
+     /* Adicionar ao style.css */
+     #nome-secao {
+         padding: 1em;
+         background-color: #ffffff;
+         margin: 1em 0;
+     }
+     ```
+   - Fazer commit das mudanças:
      ```bash
-     git add .
-     git commit -m "Adiciona seção Sobre"
+     git add index.html style.css
+     git commit -m "Adiciona seção Nome"
      ```
 
-6. **Push para o Repositório Remoto:**
+5. **Push para o Repositório Remoto:**
    - Enviar a branch com as mudanças para o GitHub:
      ```bash
-     git push origin aluno-nome-tarefa
+     git push origin aluno-nome-secao
      ```
 
-7. **Pull Request:**
+6. **Pull Request:**
    - Cada aluno deve criar um Pull Request (PR) da sua branch para a `main` no GitHub.
    - Os alunos devem revisar os PRs uns dos outros e sugerir melhorias, se necessário.
 
-8. **Merge dos Pull Requests:**
+7. **Merge dos Pull Requests:**
    - Após a revisão, os PRs podem ser mesclados na `main`.
-   - Resolver possíveis conflitos que surgirem durante o merge.
+   - Instruir os alunos sobre como resolver possíveis conflitos que surgirem durante o merge.
 
-9. **Atualização do Repositório Local:**
+8. **Atualização do Repositório Local:**
    - Após todos os PRs serem mesclados, cada aluno deve atualizar o seu repositório local:
      ```bash
      git checkout main
      git pull origin main
      ```
 
-10. **Tarefa Final:**
+9. **Tarefa Final:**
     - Cada aluno deve adicionar seu nome e uma breve descrição da sua contribuição no arquivo `contribuidores.txt` na raiz do projeto.
     - Criar uma nova branch `contribuidor-nome`, adicionar o arquivo, fazer commit e enviar o PR para a `main`.
 
